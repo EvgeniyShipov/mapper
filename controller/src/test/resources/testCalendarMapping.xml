@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping date-format="yyyy-MM-dd'T'HH:mm s.SSSXXX" wildcard="false">
+        <class-a>ru.sbt.integration.orchestration.projects.teststruct.SourceClass</class-a>
+        <class-b>ru.sbt.integration.orchestration.projects.teststruct.DestinationClass</class-b>
+        <field>
+            <a>parentString1</a>
+            <b>date2</b>
+        </field>
+        <field>
+            <a>date</a>
+            <b>calendar</b>
+        </field>
+        <field>
+            <a>calendar</a>
+            <b>date</b>
+        </field>
+    </mapping>
+</mappings>

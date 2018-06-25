@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>com.sbt.bm.ucp.corp.model.party.organization.Organization</class-a>
+        <class-b>com.sbt.bm.rdm.api.CibOrganization</class-b>
+        <field>
+            <a>legalClassificationType.description</a>
+            <b>cibAdditional.ecmId</b>
+        </field>
+        <field>
+            <a>financialInstituteRequisites.swiftCode</a>
+            <b>cibAdditional.directorFullName</b>
+        </field>
+    </mapping>
+</mappings>

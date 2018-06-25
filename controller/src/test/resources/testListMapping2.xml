@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping type="one-way">
+        <class-a>com.sbt.pprb.dto.creditcardstatement.CardType</class-a>
+        <class-b>com.sbt.pprb.dto.creditcardstatement.CardType</class-b>
+        <field>
+            <a>operations.endRemainder</a>
+            <b>operationDetails[2].authCode</b>
+        </field>
+        <field>
+            <a>operationDetails[2].authCode</a>
+            <b>operationDetails[2].operType</b>
+        </field>
+        <field>
+            <a>operationDetails[1]</a>
+            <b>operationDetails[0]</b>
+        </field>
+        <field>
+            <a>operationDetails[0].operType</a>
+            <b>operations.summPercentsAndFeeWriteOffs</b>
+        </field>
+    </mapping>
+</mappings>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping map-null="true" map-empty-string="false">
+        <class-a>ru.sbt.integration.orchestration.projects.teststruct.SourceClass</class-a>
+        <class-b>ru.sbt.integration.orchestration.projects.teststruct.DestinationClass</class-b>
+        <field>
+            <a>parentArrayList11</a>
+            <b>integers2</b>
+            <a-hint>java.lang.String</a-hint>
+            <b-hint>java.lang.Integer</b-hint>
+        </field>
+    </mapping>
+</mappings>

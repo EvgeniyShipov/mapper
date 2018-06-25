@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>ru.sbt.integration.orchestration.projects.teststruct.SourceClass</class-a>
+        <class-b>ru.sbt.integration.orchestration.projects.teststruct.DestinationClass</class-b>
+        <field>
+            <a>parentString1</a>
+            <b>anInt</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aDouble</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aBoolean</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aFloat</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aByte</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aShort</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aLong</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aChar</b>
+        </field>
+
+
+
+        <field>
+            <a>parentString1</a>
+            <b>anInteger1</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aDouble1</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aBoolean1</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aFloat1</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aByte1</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aShort1</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aLong1</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>aChar1</b>
+        </field>
+
+        <field>
+            <a>parentString1</a>
+            <b>bigDecimal</b>
+        </field>
+        <field>
+            <a>parentString1</a>
+            <b>bigInteger</b>
+        </field>
+    </mapping>
+</mappings>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping wildcard="false">
+        <class-a>ru.sbt.integration.orchestration.projects.teststruct.SourceClass</class-a>
+        <class-b>ru.sbt.integration.orchestration.projects.teststruct.DestinationClass</class-b>
+        <field>
+            <a>parentString1</a>
+            <b>parentString1</b>
+        </field>
+        <field>
+            <a>innerClass.parentString2</a>
+            <b>parentString2</b>
+        </field>
+        <field>
+            <a>parentString2</a>
+            <b>innerClass.parentString2</b>
+        </field>
+        <field>
+            <a>parentArrayList11[0]</a>
+            <b>string3</b>
+            <a-hint>java.lang.String</a-hint>
+        </field>
+        <field>
+            <a>classesList[0].parentString1</a>
+            <b>string4</b>
+        </field>
+        <field>
+            <a>string3</a>
+            <b>strings2[0]</b>
+        </field>
+        <field>
+            <a>string4</a>
+            <b>classesList[0].parentString1</b>
+        </field>
+        <field>
+            <a>classesList[1].parentString1</a>
+            <b>classesList[1].parentString1</b>
+        </field>
+    </mapping>
+</mappings>
